@@ -33,8 +33,7 @@ case class SubscribeReceiver(receiverActor: ActorRef)
 case class UnsubscribeReceiver(receiverActor: ActorRef)
 
 /**
- * Sends the random content to every receiver subscribed with 1/2
- *  second delay.
+ * Sends the random content to every receiver subscribed with 1/2 second delay.
  */
 class FeederActor extends Actor {
 

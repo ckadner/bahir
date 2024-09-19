@@ -108,7 +108,7 @@
     <akka.version>2.4.20</akka.version>
     <akka_zeromq.version>2.3.16</akka_zeromq.version>
 
-    <protobuf.version>2.5.0</protobuf.version>
+    <protobuf.version>3.25.5</protobuf.version>
     <jsr305.version>3.0.1</jsr305.version>
 
     <test.java.home>${java.home}</test.java.home>
